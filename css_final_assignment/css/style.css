@@ -1,0 +1,669 @@
+/* universal selector */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* apply font */
+    font-family: MyCustomFont;
+}
+
+/* using font form google fonts (Manrope) */
+@font-face {
+    font-family: MyCustomFont;
+    src: url('../MyFontStyle/static/Manrope-Regular.ttf');
+}
+
+
+body {
+    overflow-x: hidden;
+}
+
+/* header section */
+header {
+    width: 100%;
+    height: 600px;
+
+}
+
+/* nav bar */
+header nav {
+    width: 100%;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+
+}
+
+.left-nav {
+    width: 75%;
+    height: 44px;
+    padding: 5px 0px 5px 55px;
+
+}
+
+/* nav left side */
+.left-nav a {
+    margin-right: 15px;
+    margin-left: 30px;
+    text-decoration: none;
+    color: #000000;
+
+}
+
+.left-nav h2 {
+    display: inline;
+    font-size: 24px;
+}
+
+span {
+    color: #4D77FF;
+}
+
+/* nav right side */
+.button-end {
+    width: 25%;
+    height: 44px;
+    margin-left: 100px;
+
+}
+
+.button-end button {
+    background-color: #4D77FF;
+    border-style: none;
+    padding: 12px 22px 12px 22px;
+    color: white;
+    border-radius: 10px;
+
+}
+
+.button-end :nth-child(1) {
+    background-color: white;
+    color: #000000;
+}
+
+/* header section */
+
+.header-section {
+    width: 100%;
+    height: 530px;
+    display: flex;
+
+}
+
+/* header left side */
+
+.header-section-left {
+    width: 50%;
+    height: 530px;
+    padding: 70px 0px 0px 70px;
+}
+
+.header-heading h1 {
+    font-size: 40px;
+}
+
+.header-text p {
+    color: #696969;
+    margin-top: 30px;
+}
+
+/* header right side */
+
+.header-section-right {
+    width: 50%;
+    height: 530px;
+}
+
+/* blue circle */
+
+.blue-circle {
+    width: 800px;
+    height: 500px;
+    border-radius: 100%;
+    position: absolute;
+    background-color: #4D77FF;
+    top: 50%;
+    left: 50%;
+}
+
+/* image */
+
+.doc-img {
+    position: relative;
+    z-index: 1;
+    top: 6.8%;
+    right: 1%;
+}
+
+/* card */
+
+.card-profile {
+    position: relative;
+    width: 150px;
+    height: 170px;
+    top: 12%;
+    left: 2%;
+    background-color: white;
+    border-radius: 10px;
+    padding-top: 10px;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
+
+}
+
+.card-content-head {
+    margin: auto;
+    width: 120px;
+    height: 140px;
+
+}
+
+.card-head-img {
+    width: 55px;
+    height: 55px;
+    margin: auto;
+}
+
+.card-head-img img {
+    border-radius: 100%;
+}
+
+
+.card-content-head h4 {
+    text-align: center;
+}
+
+.card-content-head h5 {
+    font-size: 12px;
+    color: #696969;
+    text-align: center;
+}
+
+.card-button {
+    margin: 5px 0px 0px 5px;
+}
+
+.card-button button {
+    border-radius: 10px;
+    background-color: #4D77FF;
+    padding: 5px 7px 5px 7px;
+    color: white;
+    border-style: none;
+}
+
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX  */
+
+/* step section */
+.step-section {
+    position: relative;
+    width: 100%;
+    height: 550px;
+    z-index: 1;
+    background-color: white;
+    padding: 100px 20px 100px 20px;
+
+}
+
+/* text */
+.text-stepsection {
+    text-align: center;
+}
+
+.text-stepsection h3 {
+    color: #4D77FF;
+    font-size: 14px;
+}
+
+.text-stepsection h2 {
+    color: #000000;
+    font-size: 32px;
+}
+
+/* boxex */
+.stepsection-box {
+    width: 100%;
+    height: 230px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 15px 0px 15px;
+    margin-top: 30px;
+
+}
+
+.step-box {
+    width: 287px;
+    height: 226px;
+    border-top: 3px solid rgba(77, 119, 255);
+    background-color: white;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding-top: 60px;
+
+}
+
+.step-box-text {
+    width: 200px;
+    height: 100px;
+    margin: auto;
+    line-height: 1.5;
+
+}
+
+.step-box-text h2 {
+    font-size: 14px;
+
+}
+
+.step-box-text h4 {
+    font-size: 12px;
+    color: #696969;
+}
+
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX  */
+
+/* find doctor section */
+
+.find-doctor-section {
+    width: 100%;
+    height: 670px;
+    display: flex;
+    background-color: white;
+}
+
+/* left side */
+.find-doctor-section-left {
+    width: 50%;
+    height: 670px;
+    padding: 70px 40px 0px 50px;
+}
+
+/* right side */
+.find-doctor-section-right {
+    width: 50%;
+    height: 670px;
+
+}
+
+/* blue circle */
+.blue-circle-finddoctor {
+    width: 700px;
+    height: 600px;
+    border-radius: 100%;
+    position: absolute;
+    background-color: #4D77FF;
+    top: 235%;
+    left: 55%;
+}
+
+.finddoctor-img {
+    position: relative;
+    z-index: 1;
+    top: 12%;
+    left: 16%;
+}
+
+.card-profile-finddoctor {
+    position: relative;
+    width: 170px;
+    height: 230px;
+    top: -15%;
+    right: 5%;
+    background-color: white;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-left: 15px;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
+}
+
+.img-content-flex {
+    display: flex;
+    margin-top: 10px;
+
+}
+
+.card-button-finddoctor {
+
+    margin-top: 10px;
+    padding-left: 10px;
+}
+
+.card-button-finddoctor button {
+    border-radius: 10px;
+    background-color: #EDF1FF;
+    padding: 8px 20px 8px 20px;
+    color: #4D77FF;
+    border-style: none;
+}
+
+.card-inner-content {
+    margin-left: 5;
+}
+
+h5 {
+    color: #696969;
+    font-size: 12px;
+
+}
+
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX  */
+
+/* schedule section */
+
+.schedule-section {
+    position: relative;
+    width: 100%;
+    height: 601px;
+    display: flex;
+    background-color: white;
+    padding: 80px 0px 80px 0px;
+
+}
+
+/* left side */
+
+.schedule-left {
+    width: 50%;
+    height: 401px;
+    padding: 20px 0px 0px 70px;
+
+}
+
+.schedule-img-border-div {
+    position: absolute;
+    width: 527px;
+    height: 372px;
+    border-radius: 200px / 300px;
+    border-style: solid;
+    border-color: #4D77FF;
+}
+
+.schedule-left img {
+    position: relative;
+    width: 507px;
+    height: 352px;
+    border-radius: 200px / 300px;
+    z-index: 1;
+    top: 3%;
+    left: 3%;
+}
+
+/* right side */
+
+.schedule-right {
+    width: 50%;
+    height: 401px;
+    padding-right: 120px;
+
+}
+
+.schedule-text {
+    margin-top: 20px;
+}
+
+.schedule-finddoctor-text-1 h3 {
+    color: #4D77FF;
+    font-size: 14px;
+}
+
+.schedule-finddoctor-text h2 {
+    font-size: 32px;
+}
+
+.schedule-finddoctor-text h4 {
+    color: #696969;
+    font-size: 14px;
+    line-height: 1.8;
+}
+
+.schedule-finddoctor-text-3 {
+    margin-top: 20px;
+}
+
+.schedule-finddoctor-text-3 {
+    margin-top: 10px;
+}
+
+.schedule-finddoctor-radio-input {
+    margin-top: 10px;
+
+}
+
+.radio-label {
+    display: inline;
+    padding-bottom: 30px;
+    margin-left: 5px;
+
+}
+
+.div-button {
+    margin-top: 20px;
+}
+
+.div-button button {
+    background-color: #4D77FF;
+    color: white;
+    padding: 16px 36px 16px 36px;
+    border-style: none;
+    border-radius: 10px;
+
+}
+
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX  */
+
+/* our rating section*/
+
+.our-rating {
+    width: 100%;
+    height: 453px;
+
+}
+
+/* text */
+
+.text-ourrating {
+    text-align: center;
+}
+
+.text-ourrating h3 {
+    color: #4D77FF;
+}
+
+/* boxes */
+
+.ourrating-box {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 160px 0px 160px;
+    margin-top: 30px;
+}
+
+.rating-box {
+    width: 287px;
+    height: 193px;
+    border-top: 3px solid rgba(77, 119, 255);
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding-top: 40px;
+
+}
+
+.rating-box-text {
+    width: 200px;
+    height: 100px;
+    margin: auto;
+    text-align: center;
+
+}
+
+.rating-box-text h3 {
+    font-size: 14px;
+}
+
+.rating-box-text h4 {
+    font-size: 12px;
+    color: #696969;
+}
+
+/* testimonial section*/
+
+.testimonial {
+    width: 95%;
+    height: 673px;
+    margin-bottom: 30px;
+
+}
+
+/* text */
+
+.text-testimonial {
+    text-align: center;
+    line-height: 2;
+    margin-bottom: 30px;
+}
+
+.text-testimonial h3 {
+    color: #696969;
+    font-size: 14px;
+}
+
+.sub-testimonial-section {
+    width: 100%;
+    height: 350px;
+    background-color: #EDF1FF;
+    display: flex;
+}
+
+/* left side */
+
+.test-left {
+    width: 50%;
+    height: 452px;
+    padding: 120px 0px 0px 100px;
+}
+
+.test-left-img {
+    position: absolute;
+    width: 340px;
+    height: 299px;
+    border-style: solid;
+    border-color: #4D77FF;
+    margin-top: 12px;
+    margin-left: 15px;
+}
+
+.test-left img {
+    position: relative;
+    width: 333px;
+    height: 292px;
+    z-index: 1;
+
+}
+
+/* right side */
+
+.test-right {
+    width: 50%;
+    height: 452px;
+    padding-top: 140px;
+}
+
+.test-text {
+    width: 70%;
+    height: 100px;
+    margin: auto;
+}
+
+.test-text p {
+    font-size: 20px;
+
+}
+
+.test-below-div {
+    width: 100%;
+    height: 100px;
+    margin-top: 115px;
+    padding-top: 15px;
+    display: flex;
+}
+
+.test-below-div h4 {
+    color: #696969;
+}
+
+.test-below-left {
+    width: 75%;
+    height: 80px;
+}
+
+.test-below-right {
+    width: 25%;
+    height: 80px;
+    padding-left: 60px;
+}
+
+.testimonial-background {
+    width: 100%;
+    height: 350px;
+    background-color: #EDF1FF;
+
+}
+
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX  */
+
+/* footer */
+
+footer {
+    width: 100%;
+    height: 190px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 0px 40px 0px 40px;
+}
+
+/* left side */
+
+.left-footer {
+    width: 36%;
+    height: 125px;
+    text-align: left;
+
+}
+
+.left-footer p {
+    font-size: 14px;
+}
+
+/* right side */
+
+.right-footer {
+    width: 50%;
+    height: 125px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+
+}
+
+.right-sub-footer {
+    width: 25%;
+    height: 125px;
+    text-align: left;
+    line-height: 27px;
+
+}
+
+.right-sub-footer h4 {
+    font-size: 20px;
+}
+
+.right-sub-footer a {
+    display: block;
+    font-size: 14px;
+    text-decoration: none;
+    color: #000000;
+}
+
+/* ---------------------------------------------------- */
